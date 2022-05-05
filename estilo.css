@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 60px;
+  }
+  
+#res {
+  color: black;
+  border-radius: 10px;
+}
+
+
+#me a{
+  color: #111;
+  padding: 40px;
+  
+}
+
+#can:hover{
+  background-color: rgba(255, 166, 0, 0.781);
+}
+
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(43, 43, 43);
+    
+  }
+
+  
+
+  .logo:hover{
+    background-color: #04AA6D;
+  }
+  
+  .logo {
+    background-color: #ffae00;
+    padding: 40px;
+
+  }
+
+  #res{
+    color: white;
+  }
+
+  .carrinho{
+      float: right;
+      border-left:1px solid #bbb;
+      background-color: #111;
+      
+  }
+
+
+  .grid1{
+      display: grid;
+      grid-template-columns: 25% 25% 50%;
+  }
+
+  .bloco{
+      margin: 20px;
+      padding: 30px;
+      background-color: blue;
+      color: white;
+      border-radius: 5px;
+      text-align: center;
+  }
+
+  .bloco:nth-child(6){
+      grid-column: 1/4;
+      grid-row: 3/3;
+  }
+
+
+  p{
+      margin-bottom: 20px;
+  }
+
+  button{
+      background-color: orange;
+      border-radius: 5px;
+      border: none;
+      margin: 10px;
+      padding: 5px;
+      cursor: pointer;
+  }
+
+  h3{
+      color: #ff0606;
+  }
+
+
+  @media screen and (max-width: 600px) {
+   
+    .grid1{
+      display: grid;
+      grid-template-columns: 50% 50%;
+  }
+
+  .bloco:nth-child(6){
+    grid-column: 1/3;
+    grid-row: 4/4;
+}
+
+.logo{
+  padding: 10px;
+  margin: 10px;
+}
+
+#me a{
+  padding: 10px;
+  margin: 10px;
+}
+
+#res{ 
+  padding: 0px;
+  margin: 0px;
+}
+
+  }
